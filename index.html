@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XE MOTOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="myF()">
+        <script type="text/javascript">
+            function hide_float_right() {
+                var content = document.getElementById('float_content_right');
+                var hide = document.getElementById('hide_float_right');
+                if (content.style.display == "none") {
+                    content.style.display = "block";
+                    hide.innerHTML = '<a href="javascript:hide_float_right()">Tắt quảng cáo [X]</a>';
+                } else {
+                    content.style.display = "none";
+                    hide.innerHTML = '<a href="javascript:hide_float_right()">Sản Phẩm Khuyến Mại 10%</a>';
+                }
+            }
+    
+            function hide_float_left() {
+                var content = document.getElementById('float_content_left');
+                var hide = document.getElementById('hide_float_left');
+                if (content.style.display == "none") {
+                    content.style.display = "block";
+                    hide.innerHTML = '<a href="javascript:hide_float_left()">Tắt quảng cáo [X]</a>';
+                } else {
+                    content.style.display = "none";
+                    hide.innerHTML = '<a href="javascript:hide_float_left()">Sản Phẩm Khuyến Mại 10%</a>';
+                }
+            }
+    
+            function myF() {
+                document.getElementById('onl').style.display = "block";
+            }
+    
+            function un() {
+                document.getElementById('onl').style.display = "none";
+            }
+        </script>
+        <div class="float-ck" style="right: 0px">
+            <div id="hide_float_right">
+                <a href="javascript:hide_float_right()">Tắt quảng cáo [X]</a>
+            </div>
+            <div id="float_content_right">
+                <img src="img/Kawasaki Ninja ZX-25R.jpg" width="280px" height="130px">
+            </div>
+        </div>
+    
+        <div class="float-ck" style="left: 0px">
+            <div id="hide_float_left">
+                <a href="javascript:hide_float_left()">Tắt quảng cáo [X]</a>
+            </div>
+            <div id="float_content_left">
+                <img src="img/BMW HP4 Race 2017.png" width="280px" height="130px">
+            </div>
+        </div>
+    
+        <div id="onl">
+            <a href="javascript:un()" style="color:#F00;">[X]</a>
+            <img src="img/DUCATI Panigle V4.jpg" width="400" height="400">
+        </div>
+</body>
+    <div class="navbar">
+        <h2>XE MOTOR</h2>
+        <div>
+            <a href="index.html">TRANG CHỦ</a>
+            <a href="yamaha.html">YAMAHA</a>
+            <a href="BMW.html">BMW</a>
+            <a href="HONDA.html">HONDA</a>
+            <a href="KAWASAKI.html">KAWASAKI</a>
+            <a href="DUCATI.html">DUCATI</a>
+            <a href="#"> <input type="text" placeholder="tìm kiếm......"> </a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <img src="img\CBR 650R.jpg" alt="CBR">
+            <p>Model: 2017 | 3100 Mi | 240HP | Automatic</p>
+            <h3>CBR 650R</h3>
+            <p>400.000.000</p>
+            <p>Honda CBR650R 2019 thuộc phân khúc tầm trung của Honda phân khối lớn. Xe được đánh giá cao về thiết kế, sức mạnh. Sở hữu thiết kế hài hòa, khỏe khoắn với bình xăng “cơ bắp” đầu và đuôi xe mạnh mẽ. Xe moto đẹp có hai phiên bản màu đỏ đen và đen mờ được bán trên thị trường</p>
+        </div>
+        <div class="card">
+            <img src="img\Moto Ducati 959.jpg" alt="Ducati">
+            <p>Model: 2017 | 3100 Mi | 240HP | Automatic</p>
+            <h3>Moto Ducati 959</h3>
+            <p>750.000.000</p>
+            <P>Ducati 959 sở hữu động cơ lớn, thiết kế thân thiện với môi trường, có dung tích xi lanh và động cơ chất lượng. Hầu hết người dùng đều đánh giá cao về siêu xe mang phong cách châu Âu này về thiết kế “không thể rời mắt”, vẻ đẹp cá tính mà nó mang lại.</P>
+        </div>
+        <div class="card">
+            <img src="img\Moto H2R.jpg" alt="Moto H2R">
+            <p>Model: 2017 | 3100 Mi | 240HP | Automatic</p>
+            <h3>Moto H2R</h3>
+            <p>990.000.000</p>
+            <P>Siêu môtô H2R là dòng mô tô cao cấp được nhiều người đánh giá tốt trong các dòng xe mô tô đẹp nhất Việt Nam. Xe sở hữu thiết kế thể thao, vẻ đẹp khỏe khoắn. Bên cạnh đó nhờ hệ thống đo lường quán tính 6 trục, kiểm soát lực kéo giúp dòng xe được lựa chọn nhiều cho các trường đua</P>
+        </div>
+        <div class="card">
+            <img src="img\Kawasaki Z1000.jpg" alt="Kawasaki">
+            <p>Model: 2017 | 3100 Mi | 240HP | Automatic</p>
+            <h3>Kawasaki Z1000</h3>
+            <p>695.000.000</p>
+            <p>Kawasaki Z1000 2019 là một trong những xe moto đẹp được đánh giá cao tại thị trường Việt với phiên bản tiêu chuẩn và R Edition. Trong đó, xe sở hữu nhiều tính năng an toàn, hệ thống phanh công nghệ ABS, phanh đĩa đôi với thiết kế xe thể thao phong cách tương đối “hầm hố”</p>
+            
+        </div>
+    </div>
+    <section id="about" class="about">
+        <h2>Về chúng tôi</h2>
+        <p>Đam Mê Motor  Đối tác tin cậy cho những ai tìm kiếm xe Motor chất lượng với mức giá hợp lý và dịch vụ hoàn hảo.</p>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+               
+                <h3>THÔNG TIN LIÊN HỆ</h3>
+                <p>Shop Đam mê motor </p>
+                <p>Địa chỉ: Ngõ 349 Nam Dư - Hà Nội</p>
+                <p>Hotline: 0861606204</p>
+                <p>Email: phamvinh16@gmail.com</p>
+            </div>
+
+            <div class="footer-column">
+                <h3>HƯỚNG DẪN</h3>
+                <ul>
+                    <li><a href="#">Hướng dẫn mua hàng</a></li>
+                    <li><a href="#">Hướng dẫn thanh toán</a></li>
+                    <li><a href="#">Hướng dẫn giao nhận</a></li>
+                    <li><a href="#">Điều khoản dịch vụ</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>CHÍNH SÁCH</h3>
+                <ul>
+                    <li><a href="#">Chính sách thanh toán</a></li>
+                    <li><a href="#">Chính sách xử lý khiếu nại</a></li>
+                    <li><a href="#">Chính sách vận chuyển</a></li>
+                    <li><a href="#">Chính sách đổi trả</a></li>
+                    <li><a href="#">Chính sách kiểm hàng</a></li>
+                    <li><a href="#">Chính sách bảo mật thông tin</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>FANPAGE</h3>
+                <a href="#"><i class="fab fa-facebook-square"></i> Facebook</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; Bản quyền thuộc về Đam Mê Motor </p>
+            <div class="subscribe-form">
+                <input type="email" placeholder="Nhập email của bạn">
+                <button>Đăng ký</button>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function searchCar() {
+            let query = document.getElementById('search-input').value;
+            alert('Tìm kiếm: ' + query);
+        }
+    </script>
+</body>
+</html>

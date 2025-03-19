@@ -1,0 +1,171 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.navbar a:hover {
+    color: #ffff2b;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card h3 {
+    margin: 10px 0;
+}
+.card p {
+    color: grey;
+}
+.footer {
+    background-color: #ffffff;
+    padding: 40px;
+    color: rgb(0, 0, 0);
+}
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 20px;
+}
+.footer-column h3 {
+    margin-bottom: 15px;
+}
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+.footer-column ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #131010;
+    margin-top: 20px;
+}
+
+
+.subscribe-form input[type="email"] {
+    padding: 10px;
+    width: 70%;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+.subscribe-form button {
+    padding: 10px;
+    border: none;
+    background-color: #e91e63;
+    color: rgb(250, 250, 250);
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+.float-ck {
+    position: fixed;
+    bottom: 30px;
+    z-index: 9000;
+}
+#float_content_right, #float_content_left {
+    border: 3px solid #01AEF0;
+    background: #fff;
+    padding: 10px;
+}
+#hide_float_right, #hide_float_left {
+    text-align: right;
+    font-size: 11px;
+}
+#hide_float_right a, #hide_float_left a {
+    background: #01AEF0;
+    padding: 2px 4px;
+    color: #900606;
+}
+#onl {
+    position: fixed;
+    bottom: 220px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    background-color: white;
+    padding: 10px;
+    border: 3px solid #01AEF0;
+    display: block;
+}
+.car-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Đẩy nút xuống dưới */
+    height: 100%; /* Đảm bảo phần tử con có thể chiếm đủ chiều cao */
+}
+
+.car-item .btn {
+    font-size: 12px; /* Giảm kích thước chữ */
+    padding: 5px 10px;
+    margin-top: auto; /* Đẩy nút xuống dưới */
+}
+.car-item p {
+    margin-bottom: 20px; /* Tăng khoảng cách giữa giá và nút */
+}
+
+.car-item .btn {
+    font-size: 12px;
+    padding: 5px 10px;
+    margin-top: auto; /* Đảm bảo nút luôn ở cuối */
+}
+.news {
+    text-align: center; /* Căn giữa nội dung */
+}
+
+.news-item {
+    display: inline-block;
+    width: 45%; /* Giới hạn chiều rộng để tránh quá to */
+    margin: 10px;
+    text-align: left; /* Căn trái nội dung tin tức */
+}
+
+.news-item img {
+    width: 100%; /* Hình ảnh sẽ tự động co giãn theo kích thước khung */
+    border-radius: 10px; /* Làm mềm góc hình ảnh */
+}
+
+.news-item h3 {
+    text-align: center; /* Căn giữa tiêu đề tin tức */
+}
